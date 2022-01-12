@@ -1,0 +1,5 @@
+package io.brunohprada.dsmovie.entities;
+
+public class ScorePK {
+
+}

@@ -1,0 +1,9 @@
+package io.brunohprada.dsmovie.entities;
+
+public class Score {
+	
+	private ScorePK id;	
+	private Double value;
+
+	
+}
