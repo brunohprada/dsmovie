@@ -1,0 +1,31 @@
+package io.brunohprada.dsmovie.services;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import io.brunohprada.dsmovie.dto.ScoreDTO;
+import io.brunohprada.dsmovie.repositories.MovieRepository;
+import io.brunohprada.dsmovie.repositories.ScoreRepository;
+import io.brunohprada.dsmovie.repositories.UserRepository;
+
+@Service
+public class ScoreService {
+
+	@Autowired
+	private MovieRepository movieRepository;
+
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Autowired
+	private ScoreRepository scoreRepository;
+	
+	@Transactional
+	public void saveScore(ScoreDTO dto) {
+		
+	}
+	
+
+}
