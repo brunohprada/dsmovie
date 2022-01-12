@@ -1,0 +1,11 @@
+package io.brunohprada.dsmovie.dto;
+
+public class MovieDTO {
+	
+	private Long id;
+	private String title;
+	private Double score;
+	private Integer count;
+	private String image;
+
+}

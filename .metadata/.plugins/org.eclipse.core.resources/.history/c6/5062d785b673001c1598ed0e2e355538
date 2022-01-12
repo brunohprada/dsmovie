@@ -1,0 +1,5 @@
+package io.brunohprada.dsmovie.dto;
+
+public class MovieDTO {
+
+}
